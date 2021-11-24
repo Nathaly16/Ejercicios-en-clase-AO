@@ -1,0 +1,21 @@
+Ejercicio 13 actividad en clase
+-------------------------------
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+entity actividad is 
+port (a,b,c,d,e,f: in std_logic;
+x1,x2,x3: out stdl_logic;
+end actividad;
+architecture arqsum of actividad is
+
+
+begin 
+X1 <= a xnor b;
+x2 <= ((c nand d) or x1 ) and ((e xor f) and (c and d))
+x3 <= (e xor f) and (c and f);
+
+
+end arqsum;
