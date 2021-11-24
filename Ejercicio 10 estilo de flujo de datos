@@ -27,4 +27,4 @@ U2: and2 port map (A,B, x(2));
 U3: or3 port map (x(0), x(1), x(2),F);
 
 
-end estructural
+end estructural;
