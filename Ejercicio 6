@@ -1,0 +1,9 @@
+Ejercicio 6
+-------------------------------
+entity Bloque is
+port (X: in std_logic_vector(1 downto 0); A,B: in std_logic; Z: out std_logic_vector(0 to 3));
+
+
+end Bloque;
+
+-------------------------------
