@@ -1,0 +1,7 @@
+use IEEE.std_logic_1164.all;
+use word.std_arith.all;
+
+
+entity Sumador1 is
+port (A,B: in std_logic_vector(0 to 1);  S: out std_logic_vector(0 to 1));
+end Sumador1;
