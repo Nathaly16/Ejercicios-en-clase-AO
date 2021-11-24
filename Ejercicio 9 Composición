@@ -1,4 +1,4 @@
-Ejercicio 8 Composicion
+Ejercicio 9 Composicion
 ------------------------------
 entity composicion is
 port (A,B: in std_logic; C: out std_logic);
