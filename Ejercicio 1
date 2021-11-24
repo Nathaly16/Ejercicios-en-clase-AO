@@ -1,0 +1,8 @@
+Ejercicio 1 
+-----------------------------------
+
+entity circuito
+port(a, b, c, d, e, f, g, h: in bit;
+	F1: out);
+end circuito;
+------------------------------------
