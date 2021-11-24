@@ -1,0 +1,12 @@
+-- Code your design here
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+entity Proyecto1 is 
+port (Q3, Q2, Q1, Q0: in bit;
+		F1, F2, F3, F4, F5, F6, F7: out bit;
+        
+end Proyecto1;
+
+
