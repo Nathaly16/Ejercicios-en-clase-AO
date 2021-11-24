@@ -1,0 +1,17 @@
+Ejercicio 8 Composicion
+------------------------------
+entity composicion is
+port (A,B: in std_logic; C: out std_logic);
+end funcional;
+
+
+architecture e_funcional of funcional is 
+begin 
+process(A,B)
+begin
+	if A = B then 
+    C <= '1';
+    else C <= '0';
+    end if;
+end process;
+end e_funcional ;
