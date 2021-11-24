@@ -1,0 +1,25 @@
+Ejercicio 11 estructural
+----------------------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+entity leccion is
+port (A,B,C,D: in std_logic: N : out std_logic);
+end leccion;
+
+
+use work.gates.all;
+
+
+architecture estructular of composicion is 
+signal x: bit_verctor (0 to 2);
+begin 
+U0: or1 port map (A,B x (0));
+
+
+U1: and2 port map (C,D x (1));
+
+
+U2: xnor3 port map (x(0), x(1),f1);
+
+
+end estructural;
