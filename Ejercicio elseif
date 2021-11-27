@@ -1,0 +1,31 @@
+Ejercicio elseif
+--------------------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity dec/bin is 
+	Port(a: in integer range 0 to 9;
+    	  d: out stdl_logic_vector(0 to 3));
+end dec/bin
+
+architecture arqbdec/bin of dec/bin
+
+begin 
+process x
+
+
+	if a = 0 then d <= "0000"
+    elsif a = 1 then d <= "0001";
+    elsif a = 2 then d <= "0010";
+    elsif a = 3 then d <= "0011";
+    elsif a = 4 then d <= "0100";
+    elsif a = 5 then d <= "0101";
+    elsif a = 6 then d <= "0110";
+    elsif a = 7 then d <= "0111";
+    elsif a = 8 then d <= "1000";
+    elsif a = 9 then d <= "0000";
+    
+       	end if;
+    end process;
+    
+    end arqbcd/dec;
