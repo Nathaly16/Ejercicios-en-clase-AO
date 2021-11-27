@@ -1,0 +1,24 @@
+Ejercicio Comparador
+--------------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity comparador is 
+	Port( a,b: in std_logic:vector (3 downto 0);
+    	  X,Y,Z: out stdl_logic);
+end comparador;
+
+architecture arqcomparador of comparador is 
+
+begin
+process a,b 
+
+	if (a = b) then 
+    x <= '1';y <= '0'; z <= '0';elsif (a > b) then
+    x <= '0'´; y <= '1';z <= '0'; else 
+    x <= '0'; y <= '0'; z <= '1'; 
+    end if; 
+    
+    end process;
+    
+    end arqcomparador;
