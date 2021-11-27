@@ -1,0 +1,31 @@
+Ejercicio clase
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity deco is 
+	Port(a: in stdl_logic_vector(3 downto 0);
+    	 d: out stdl_logic_vector(6 downto 0));
+end deco
+
+architecture arqbdeco of deco
+
+begin 
+process (a) begin
+	case A is 
+	when "0000" => D <= "0000001";
+        when "0001" => D <= "1001111";
+        when "0010" => D <= "0010010";
+        when "0011" => D <= "0000110";
+        when "0100" => D <= "1001100";
+        when "0101" => D <= "0100100";
+        when "0110" => D <= "0100000";
+        when "0111" => D <= "0001110";
+        when "1000" => D <= "0000000";
+        when "1001" => D <= "0000100";
+        when others => D <= "1111111";
+	
+    
+       	end case ;
+    end process;
+    
+    end arqdec;
